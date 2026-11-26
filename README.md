@@ -1,6 +1,9 @@
 # AI Image Lab: how does AI make images?
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phnam05/stable-diffusion-lab/blob/main/sd_lab.ipynb)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
+
+**Created by [Nam Ngo](https://github.com/phnam05)** (College of Engineering and Computer Science, VinUniversity) for the AI Literacy course, AI in Media session.
 
 A 60-minute, hands-on Stable Diffusion lab for the AI Literacy course (AI in Media). Students need no coding background. They open one Google Colab notebook, press ▶ buttons and move sliders, and learn what each setting of an image generator actually does. It costs $0 and needs only a Google account.
 
@@ -64,3 +67,11 @@ A 60-minute, hands-on Stable Diffusion lab for the AI Literacy course (AI in Med
 - The first Setup downloads ~3 GB (model in fp16, including the safety checker). The inpainting section downloads another ~3 GB the first time it runs.
 - The live denoising preview uses [TAESD](https://huggingface.co/madebyollin/taesd), a tiny decoder (~10 MB).
 - The notebook was smoke-tested end to end on CPU with a tiny test model: every cell, the no-GPU path, bad inputs, all five samplers and the gallery export. It has **not** yet been run on a real T4. Do the test run above before class.
+
+## Reusing this lab
+You're welcome to use and adapt this lab in your own course, as long as it's **non-commercial** and you **credit the author**. It's licensed under [CC BY-NC 4.0](LICENSE). This covers the notebook and this guide. The DreamShaper 8 model keeps its own licence (CreativeML OpenRAIL-M).
+
+**How to cite:**
+> Ngo, N. (2026). *AI Image Lab: A hands-on Stable Diffusion lab for non-CS students* [Google Colab notebook]. College of Engineering and Computer Science, VinUniversity. https://github.com/phnam05/stable-diffusion-lab
+
+**Contact:** [github.com/phnam05](https://github.com/phnam05). Questions or improvements are welcome as GitHub issues.
