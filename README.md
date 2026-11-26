@@ -29,7 +29,7 @@ A 60-minute, hands-on Stable Diffusion lab for the AI Literacy course (AI in Med
 - [ ] **Load test:** 5–10 people open the link at the same time. Everyone should get a GPU and finish Setup.
 - [ ] Gallery images load: open the notebook on a CPU runtime and check that the sections show the example pictures.
 - [ ] Pick 1–2 target images for the playground challenge (generate them yourself and note the secret prompt).
-- [ ] Plan the **groups of 3**. With 60+ students that's ~20–22 notebooks running instead of 60+, which makes it much more likely everyone gets a GPU.
+- [ ] Plan the **groups of 3**. Students are encouraged to work in groups because free Colab GPUs aren't guaranteed. Each Google account has its own GPU quota and may be refused at busy times, but a group only needs one member to get a GPU. It also means ~20 setups to troubleshoot instead of 60+.
 
 ## 60-minute run of show
 | Time | What happens | Notebook |
